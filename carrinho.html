@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <script src="https://kit.fontawesome.com/0380407b19.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="pesquisa"><p>Busque seus produtos aqui</p><i class="fa-solid fa-magnifying-glass"></i></div>
+        <ul>
+            <li class=""><a href="index.html" class="link_cabecalho">HOME</a></li>
+            <li class=""><a href="quemsomos.html" class="link_cabecalho">QUEM <br>SOMOS</a></li>
+            <li class=""><a href="contato.html" class="link_cabecalho">CONTATO</a></li>
+            <li class=""><a href="login.html" class="link_cabecalho">LOGIN</a></li>
+            <li class=""><a href="carrinho.html" class="link_cabecalho ativo"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </header>
+    <section class="carrinho">
+        <div class="esquerda">
+            <h1>Carrinho de compras</h1>
+            <div class="produto_carrinho">
+                <div><img src="discos/image 39.png" alt=""></div>
+                <div class="desc_produto">
+                    <h4>Ringo - Ringo Starr</h4>
+                    <p>R$490,40</p>
+                    <div class="quantidade">
+                        <span>- </span><p> 1x </p><span> +</span>
+                    </div> 
+                    <div id="check">
+                        <input type="checkbox" name="" id=""><h3>Para presente</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="produto_carrinho">
+                <div><img src="discos/image 34.png" alt=""></div>
+                <div class="desc_produto">
+                    <h4>The Stranger - Billy Joel</h4>
+                    <p>R$490,40</p>
+                    <div class="quantidade">
+                        <span>- </span><p> 1x </p><span> +</span>
+                    </div>               
+                    <div id="check">
+                        <input type="checkbox" name="" id=""><h3>Para presente</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="produto_carrinho">  
+                <div><img src="discos/image 38.png" alt=""></div>
+                <div class="desc_produto">
+                    <h4>Super Trouper - ABBA</h4>
+                    <p>R$490,40</p>
+                    <div class="quantidade">
+                        <span>- </span><p> 1x </p><span> +</span>
+                    </div> 
+                    <div id="check">
+                        <input type="checkbox" name="" id=""><h3>Para presente</h3>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="direita">
+            <div class="misc">
+                <div id="cupons">
+                    <input type="text" name="" id="cupom"><a href="">Adicionar Cupom</a>
+                </div>
+                <div><a href="" class="carrinho_botao  c_b2">Limpar Carrinho<i class="fa-solid fa-trash"></i></a></div>
+                <div><a href="" class="carrinho_botao">Atualizar Carrinho<i class="fa-solid fa-arrows-rotate"></i></a></div>
+            </div>
+            <div class="total">
+                <h3>Total</h3>
+                <div class="info_total">
+                    <p>Subtotal</p><span>R$1471,20</span>
+                </div>
+                <div class="info_total">
+                    <p>Entrega</p><span>Calcular Entrega<i class="fa-solid fa-truck"></i></span>
+                </div>
+                <div class="info_total">
+                    <p>Total</p><span>R$1471,20</span>
+                </div>
+                <div id="finalizar">
+                    <a href="" id="finalizacao">Continuar para finalização</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="categoria_rodape">
+            <div><a href=""><i class="fa-brands fa-square-facebook"></i></a></div>
+            <div><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+            <div><a href=""><i class="fa-brands fa-x-twitter"></i></a></div>
+            <div><a href=""><i class="fa-brands fa-whatsapp"></i></a></div>
+        </div>
+        <div class="categoria_rodape">
+            <div class="rodape_titulo">Navegação</div>
+            <div class="item_rodape"><a href="index.html">Home</a></div>
+            <div class="item_rodape"><a href="quemsomos.html">Quem somos</a></div>
+            <div class="item_rodape"><a href="contato.html">Contato</a></div>
+            <div class="item_rodape"><a href="login.html">Login</a></div>
+            <div class="item_rodape"><a href="carrinho.html">Carrinho</a></div>
+        </div>
+        <div class="categoria_rodape">
+            <div class="rodape_titulo">Páginas Extra</div>
+            <div class="item_rodape"><a href="produto.html">Produto</a></div>
+            <div class="item_rodape"><a href="busca.html">Busca</a></div>
+            <div class="item_rodape"><a href="grade.html">Grade de produtos</a></div>
+        </div>
+        <div class="categoria_rodape">
+            <div class="rodape_titulo">Formas de pagamento</div>
+            <div class="pagamentos">
+                <div class="pagamento_opcao"><img src="pagamento/image 1.png" alt=""></div>
+                <div class="pagamento_opcao"><img src="pagamento/image 2.png" alt=""></div>
+                <div class="pagamento_opcao"><img src="pagamento/image 3.png" alt=""></div>
+                <div class="pagamento_opcao"><img src="pagamento/image 4.png" alt=""></div>
+                <div class="pagamento_opcao"><img src="pagamento/image 5.png" alt=""></div>
+                <div class="pagamento_opcao"><img src="pagamento/image 7.png" alt=""></div>
+            </div>
+        </div>
+        <div class="categoria_rodape">
+            <div class="rodape_titulo">Newsletter</div>
+            <div class="teste">
+                <input type="text" name="" placeholder="Nome completo" id="seu_nome">
+                <input type="email" name="" placeholder="E-mail" id="seu_email">
+                <a href="" id="enviar">ENVIAR</a>
+            </div>
+            <div class="rodape_titulo">Contato</div>
+            <div>thebestdiscos@gmail.com</div>
+        </div>
+    </footer>
+</body>
